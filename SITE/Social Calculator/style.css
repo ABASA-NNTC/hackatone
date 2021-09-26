@@ -1,0 +1,1047 @@
+a {
+	text-decoration: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.account {
+	background: #004BFF;
+	width: 100%;
+	height: 5vh;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+}
+
+.account img {
+	width: 4vh;
+	margin-right: 10px;
+}
+
+.account a {
+	color: white;
+	font-family: Century Gothic, sans-serif;
+	font-size: 1.5em;
+	margin-right: 50px;
+	font-weight: bold;
+}
+
+.navbar {
+	background: white;
+	width: 100%;
+	height: 7.5vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navbar a {
+	color: #16161a;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	margin-right: 1em;
+}
+
+.navbar a:hover {
+	border-bottom: 2px solid #16161a;
+}
+
+.parallax {
+	width: 100%;
+	height: 50vh;
+	background: #004BFF;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.parallax p {
+	color: white;
+	font-size: 4em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+}
+
+.info {
+	width: 100%;
+	height: 50vh;
+	background: white;
+	background-blend-mode: darken;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.info-left {
+	float: left;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+.info-left p {
+	color: #16161a;
+	font-size: 1.5em;
+	font-family: Century Gothic, sans-serif;
+	margin-left: 20%;
+	margin-right: 10%;
+}
+
+.info-right {
+	float: right;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+.info-right a {
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	margin-right: 20%;
+	margin-left: 10%;
+}
+
+.info-right a:hover {
+	background: #16161a;
+	transition: 0.5s;
+}
+
+.footer {
+	height: 10vh;
+	background: #004BFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer p {
+	font-size: 1em;
+	color: white;
+	font-family: Century Gothic, sans-serif;;
+}
+
+.test {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex-direction: column;
+}
+
+.question {
+	font-family: Century Gothic, sans-serif;
+  	font-size: 3em;
+}
+
+.button-result {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button-result:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button1:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button2:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button3:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button1-1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button1-1:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button2-1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button2-1:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button3-1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button3-1:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button1-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button1-2:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button2-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button2-2:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button3-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button3-2:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button1-3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button1-3:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button2-3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button2-3:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button1-1-1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button1-1-1:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button2-1-1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button2-1-1:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button1-1-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button1-1-2:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button2-1-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button2-1-2:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button1-1-3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button1-1-3:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button2-1-3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button2-1-3:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button1-1-4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button1-1-4:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button2-1-4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button2-1-4:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button3-1-4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button3-1-4:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button1-1-5 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button1-1-5:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button2-1-5 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button2-1-5:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button1-2-1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button1-2-1:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button2-2-1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button2-2-1:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button3-2-1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button3-2-1:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button1-2-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button1-2-2:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button2-2-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button2-2-2:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button1-2-3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button1-2-3:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button2-2-3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button2-2-3:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button1-2-2-1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button1-2-2-1:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button2-2-2-1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.button2-2-2-1:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.lgots {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.spisok-title p {
+	font-family: Century Gothic, sans-serif;
+  	font-size: 3em;
+}
+
+.spisok {
+	font-family: Century Gothic, sans-serif;
+  	font-size: 2em;
+  	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.l1-info{
+	font-family: Century Gothic, sans-serif;
+	font-size: 0.5em;
+}
+
+.lgots-info {
+	width: 100%;
+	background: white;
+	background-blend-mode: darken;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+
+.info-krit {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex-direction: column;
+}
+
+.krit1-button {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.krit1-button:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.krit2-button {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.krit2-button:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+
+.krit3-button {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.krit3-button:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.krit4-button {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.krit4-button:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.krit5-button {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.krit5-button:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.krit6-button {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.krit6-button:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.info-krit a{
+	color: white;
+}
+
+.bot {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	font-family: Century Gothic, sans-serif;
+	font-weight: bold;
+	padding: 30px;
+	background: #004BFF;
+	width: 15%;
+}
+
+.bot:hover {
+	background: #16161a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.lgots-left {
+	float: left;
+	width: 50%;
+	justify-content: center;
+}
+
+.lgots-right {
+	float: right;
+	width: 50%;
+	justify-content: center;
+}
+
+.title {
+	font-family: Century Gothic, sans-serif;
+  	font-size: 2em;
+  	margin-top: 2.5vh;
+  	margin-bottom: 2.5vh;
+  	text-align: center;
+  	font-weight: bold;
+}
+
+.title-krit {
+	font-family: Century Gothic, sans-serif;
+  	font-size: 2em;
+  	margin-top: 2.5vh;
+  	margin-bottom: 2.5vh;
+  	text-align: center;
+}
+
+.lgots-spisok-kat {
+	margin-left: 50px;
+	margin-right: 50px;
+	font-family: Century Gothic, sans-serif;
+  	font-size: 1.25em;
+}
+
+.lgots-spisok-kat div {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.lgots-spisok-kat div:hover {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.lgots-left-ls1 {
+	margin-left: 50px;
+	margin-right: 50px;
+	font-family: Century Gothic, sans-serif;
+  	font-size: 1.25em;
+}
+
+.lgots-left-ls1 p {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.lgots-left-ls1 p:hover {
+	cursor: pointer;
+	font-weight: bold;
+}
